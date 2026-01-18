@@ -10,7 +10,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello GitHub");
+            int x = 10;
+            int y = 3;
+
+            Console.WriteLine("足し算：" + (x + y));
+            Console.WriteLine("引き算：" + (x - y));
+            Console.WriteLine("掛け算：" + (x * y));
+            Console.WriteLine("割り算：" + (x / y)); // 整数の割り算
+
+            Console.ReadLine();
 
         }
     }
