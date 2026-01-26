@@ -64,6 +64,8 @@ namespace CSharp_joukenbunki
 
             //学生割引判定
             Console.WriteLine("学生割引判定");
+            Console.WriteLine("// int age = 20;          // 年齢");
+            Console.WriteLine("//bool isStudent = true; // 学生かどうか");
 
             int age = 20;          // 年齢
             bool isStudent = true; // 学生かどうか
