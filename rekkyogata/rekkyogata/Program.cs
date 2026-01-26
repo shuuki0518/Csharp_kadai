@@ -24,7 +24,7 @@ namespace rekkyogata
         static void Main(string[] args)
         {
 
-            //enumをforeachで出力
+            //enumをforeachで表示
             foreach(DayOfWeekEnum day in Enum.GetValues(typeof(DayOfWeekEnum)))
             {
                 Console.WriteLine(day);
