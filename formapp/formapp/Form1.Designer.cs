@@ -76,7 +76,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "kadaiForm";
-            this.Text = "kadaiForm";
+            this.Text = "課題Form";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
