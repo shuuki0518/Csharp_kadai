@@ -16,7 +16,7 @@ namespace hairetu
 
             string[] array = { "aaa", "bbb", "ccc", "ddd", "abc" };
 
-            if (array.Contains("abc"))
+            if (array.Contains("aaa"))
             {
                 Console.WriteLine("含んでいます");
             }
