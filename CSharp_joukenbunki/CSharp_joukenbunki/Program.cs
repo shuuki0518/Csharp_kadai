@@ -74,6 +74,47 @@ namespace CSharp_joukenbunki
             {
                 Console.WriteLine("学生割引が適用されます");
             }
+
+            //④ログイン判定
+            Console.WriteLine("ログイン判定");
+
+            Console.Write("ログインIDを入力してください: ");
+            string loginId = Console.ReadLine();
+
+            Console.Write("パスワードを入力してください: ");
+            string password = Console.ReadLine();
+
+            // OR条件（どちらか一致すれば成功）
+            if (loginId == "admin" || password == "password123")
+            {
+                Console.WriteLine("ログイン成功");
+            }
+            else
+            {
+                Console.WriteLine("ログイン失敗");
+            }
+
+            Console.WriteLine();
+
+            //⑤点数による評価
+            Console.WriteLine("点数評価");
+
+            Console.Write("点数を入力してください: ");
+            int score = int.Parse(Console.ReadLine());
+
+            if (score >= 80 && score <= 100)
+            {
+                Console.WriteLine("優秀");
+            }
+            else if (score >= 60 && score < 80)
+            {
+                Console.WriteLine("合格");
+            }
+            else
+            {
+                Console.WriteLine("不合格");
+            }
+
             //ctrl + F5
 
         }
