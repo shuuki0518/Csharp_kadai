@@ -24,8 +24,8 @@ namespace CSharp_capsule
             Employee emp = new Employee();
 
             //プロパティに値設定
-            emp.EmployeeId = "A001";
-            emp.Name = "山田太郎";
+            emp.EmployeeId = "E002";
+            emp.Name = "田中花子";
 
             //出力
             Console.WriteLine(emp.EmployeeId);
