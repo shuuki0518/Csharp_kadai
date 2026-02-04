@@ -46,7 +46,7 @@
             this.btnCheckWord.Name = "btnCheckWord";
             this.btnCheckWord.Size = new System.Drawing.Size(75, 23);
             this.btnCheckWord.TabIndex = 1;
-            this.btnCheckWord.Text = "button1";
+            this.btnCheckWord.Text = "判定";
             this.btnCheckWord.UseVisualStyleBackColor = true;
             this.btnCheckWord.Click += new System.EventHandler(this.btnCheckWord_Click);
             // 
