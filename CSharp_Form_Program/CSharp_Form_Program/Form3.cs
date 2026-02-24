@@ -129,5 +129,14 @@ namespace CSharp_Form_Program
                 panel5.BackgroundImageLayout = ImageLayout.Center;
             }
         }
+
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+                Message_manage.Msg4,   //「チェック完了！」
+                Message_manage.Title3, //「確認」
+                MessageBoxButtons.OK
+            );
+        }
     }
 }
