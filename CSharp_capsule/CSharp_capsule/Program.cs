@@ -6,15 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharp_capsule
 {
-    class Employee
-    {
-
-        //自動プロパティ(カプセル化)
-        public string EmployeeId { get; set; }
-        public string Name { get; set; }
-
-    }
-
+   
     class Program
     {
         static void Main(string[] args)
